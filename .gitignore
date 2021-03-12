@@ -12,3 +12,6 @@
 # Linux
 *~
 
+
+# Generated files
+bin/
