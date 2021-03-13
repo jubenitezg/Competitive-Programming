@@ -19,3 +19,6 @@ bin/
 # Debug files
 *.in
 *.out
+
+# VS code
+.vscode/
