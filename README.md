@@ -12,9 +12,10 @@ ios_base::sync_with_stdio(false)
 cin.tie(NULL)
  ```
 
-Read line scanf
+Read line scanf/fgets
 ```cpp
 scanf(" %[^\n]",line);
+fgets(line, sizeof(line), stdin);
 ```
 
 Debug
