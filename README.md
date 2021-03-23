@@ -8,8 +8,7 @@ Include the STL:
 Fast I/O
 
  ```cpp
-ios_base::sync_with_stdio(false)
-cin.tie(NULL)
+#define fast ios_base::sync_with_stdio(0);cin.tie(0);
  ```
 
 Read line scanf/fgets
@@ -20,6 +19,5 @@ fgets(line, sizeof(line), stdin);
 
 Debug
 ```cpp
-freopen("in.in","r",stdin);
-freopen("out.out","w",stdout);
+#define debug freopen("in.in","r",stdin);freopen("out.out","w",stdout);
 ```
