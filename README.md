@@ -21,3 +21,6 @@ Debug
 ```cpp
 #define debug freopen("in.in","r",stdin);freopen("out.out","w",stdout);
 ```
+
+ASCII lower to upper
+-32
