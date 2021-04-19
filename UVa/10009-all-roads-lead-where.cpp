@@ -3,7 +3,7 @@
 #define debug freopen("in.in","r",stdin);freopen("out.out","w",stdout);
 using namespace std;
 
-string bfs(unordered_map<string, vector<string>> &g, string from, string to) {
+string bfs(unordered_map<string, vector<string>> &g, string &from, string &to) {
     set<string> seen;
     unordered_map<string, string> path;
     queue<string> q;
