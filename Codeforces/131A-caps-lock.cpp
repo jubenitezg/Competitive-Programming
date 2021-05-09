@@ -21,9 +21,7 @@ int main() {
     }
     else if (upper) {
         for (int i = 0; i < n; i++) {
-            if ('A' <= line[i] && line[i] <= 'Z') {
-                line[i] += 32;
-            }
+            line[i] += 32;
         }
     }
 
