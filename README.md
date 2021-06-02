@@ -31,8 +31,6 @@ Debug
 #define debug freopen("in.in","r",stdin);freopen("out.out","w",stdout);
 ```
 
-ASCII lower to upper
--32
 
 ## Primes
 ```cpp
@@ -47,3 +45,7 @@ void sieve(int n) {
   prime[1] = prime[0] = 1;
 } 
 ```
+
+## ASCII
+
+* lower to upper -32
