@@ -1,4 +1,7 @@
-#include<bits/stdc++.h>
+#include <stdio.h>
+#include <string>
+#include <map>
+#include <iostream>
 using namespace std;
 
 int main() {

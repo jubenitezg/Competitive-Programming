@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <stdio.h>
+#include <math.h>
 using namespace std;
 
 int main() {
@@ -8,7 +9,11 @@ int main() {
         for (int i = 0; i < n; i++) {
             scanf("%d", &arr[i]);
         }
-        int contains[n] = {0};
+        int contains[n];
+        for (int i = 0; i < n; i++) {
+            contains[i] = 0;
+        }
+
         for (int i = 0; i < n-1; i++) {
             int abs_val = abs(arr[i]-arr[i+1]);
             if (abs_val < n) {

@@ -1,4 +1,5 @@
-# include<bits/stdc++.h>
+#include <stdio.h>
+#include <vector>
 #define fast ios_base::sync_with_stdio(0);cin.tie(0);
 #define debug freopen("in.in","r",stdin);freopen("out.out","w",stdout);
 using namespace std;
@@ -29,7 +30,11 @@ int main() {
             adj[a].push_back(b);
             adj[b].push_back(a);
         }
-        int colors[n] = {0};
+        int colors[n];
+        for (int i = 0; i < n; i++) {
+            colors[i] = 0;
+        }
+        
         ans = true;
         dfs(adj, colors, 0, 1);
         if (ans) {

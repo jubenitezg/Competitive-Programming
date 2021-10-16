@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
 /*
  Recursion get_change(curr, idx_coin + 1) + get_change(curr - coins[idx_coin], idx_coin) 
